@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background-color: #5b128b;
+}
+.container {
+    width: 800px;
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #5b128b;
+    text-transform: capitalize;
+    border: none;
+    background-color: #ffd000;
+    color: #5b128b;
+
+}
+form {
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+.form-content {
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-content label {
+    text-transform: uppercase;
+}
+.form-content input {
+    padding: 6px;
+    font-size: 16px;
+}
+form button {
+    width: 8rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #5b128b;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+    background-color: #ffd000;
+    color: #5b128b;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+}
+thead {
+    background-color: #ffd000;
+    
+}
+thead tr {
+    color: #5b128b;
+    font-size: 20px;
+    font-weight: bold;
+}
+thead th {
+    padding: 8px;
+    border-bottom: 1px solid #000;
+}
+tbody {
+    background-color: rgb(242, 242, 242);
+}
+tbody tr {
+    text-align: center;
+    color: #5b128b;
+    font-size: 18px;
+    font-weight: normal;
+}
+tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #000;
+}
